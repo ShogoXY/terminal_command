@@ -4,13 +4,11 @@ Some weird commands for Linux terminal
 Some of it are useful, some are not.
 But every commad do some cool stuff
 
-####    fortune    ####
+
 ## print some sentence
 fortune
 
-####    cowsay   ####
 ## print cow with text bouble
-
 cowsay  
 cowsay -l
 fortune | cowsay -f sodomized 
@@ -21,8 +19,8 @@ doge
 lolcat
 
 
-####    figlet    ####
-##create text from asci
+
+## create text from asci ( figlet )
 
 cd /usr/share/figlet
 figlet -f bigmono9 distrotube
@@ -30,26 +28,27 @@ figlet -f cirlcle distrotube
 
 
 
-
+## print text 
 bullshit
-####
+
+## aquarium on terminal
 asciiquarium
 
-####
+## you like matrix?
 cmatrix
 
-####
+## fire in terminal
 aafire
 
-####    Clock    ####
+## Clock
 tty-clock
 watch -n1 "date '+%D%n%T'|figlet -k"
 ##toilet
 while true; do echo "$(date '+%D %T' | toilet -f term -F border --gay)"; sleep 1; done
 
-####   edit some when type root password    ####
+## edit some when type root password
 sudo visudo
 
-#### for movie hackers ####
+## for movie (hackers)
 hollywood
 bb
