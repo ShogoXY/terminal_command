@@ -10,21 +10,21 @@ fortune
 
 ## print cow with text bouble
 cowsay  
-cowsay -l
-fortune | cowsay -f sodomized 
-fortune | cowsay -f ghostbusters 
-fortune | cowsay -f $(ls /usr/share/cows/|shuf -n 1) | lolcat
-xcowsay
-doge
-lolcat
+cowsay -l  
+fortune | cowsay -f sodomized  
+fortune | cowsay -f ghostbusters  
+fortune | cowsay -f $(ls /usr/share/cows/|shuf -n 1) | lolcat  
+xcowsay  
+doge  
+lolcat  
 
 
 
 ## create text from asci ( figlet )
-
-cd /usr/share/figlet
-figlet -f bigmono9 distrotube
-figlet -f cirlcle distrotube
+figlet  
+cd /usr/share/figlet  
+figlet -f bigmono9 distrotube  
+figlet -f cirlcle distrotube  
 
 
 
@@ -41,14 +41,13 @@ cmatrix
 aafire
 
 ## Clock
-tty-clock
-watch -n1 "date '+%D%n%T'|figlet -k"
-##toilet
-while true; do echo "$(date '+%D %T' | toilet -f term -F border --gay)"; sleep 1; done
+tty-clock  
+watch -n1 "date '+%D%n%T'|figlet -k"  
+while true; do echo "$(date '+%D %T' | toilet -f term -F border --gay)"; sleep 1; done  
 
 ## edit some when type root password
 sudo visudo
 
 ## for movie (hackers)
-hollywood
-bb
+hollywood  
+bb  
